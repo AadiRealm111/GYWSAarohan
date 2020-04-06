@@ -23,11 +23,10 @@ hr{
   border-width: 1px;
 
 }
-.flex-container{
-  display: flex;
-  flex-direction: row;
-}
 .alogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 40px;
   padding-top: 40px;
 }
@@ -41,18 +40,13 @@ hr{
     padding-top: 150px;
     padding-bottom: 100px;
 }
-p.bor{
-  border-style: solid;
-  border-color: yellow;
-  border-width: 2px;
-  border-radius: 5px;
-}
+
 .info-text {
     margin-top: 2em;
     font-family: 'Montserrat';
-    line-height: 1.75;
+    line-height: 1.5;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: #212529;
 }
 .impact {
@@ -106,7 +100,7 @@ cursor: pointer;
 .next {
 cursor: pointer;
 position: absolute;
-top: 40%;
+top: 50%;
 width: auto;
 padding: 16px;
 margin-top: -50px;
@@ -127,7 +121,7 @@ border-radius: 3px 0 0 3px;
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-background-color: rgba(0, 0, 0, 0.8);
+background-color: yellow;
 }
 
 /* Number text (1/3 etc) */
@@ -168,4 +162,20 @@ opacity: 0.6;
 .active,
 .demo:hover {
 opacity: 1;
+}
+.form{
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text]:focus {
+background-color: #FFFF99; 
+}
+input[type=email]:focus {
+background-color: #FFFF99;
+}
+
+.btn{
+  border-color: yellow;
+background-color: yellow;
 }
